@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border;
+  }
+  body{
+    text-align: center;
+    background: rgb(57, 75, 83);
+  }
+  button{
+    width: 20px;
+    height: 25px;
+    
+  }

@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <title>calculadora</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="../Img/img.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        02 CALCULADORA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </div>
+            </div>
+    </div>
+</nav>
+
+   <center>
+    <h1>CALCULADORA</h1>
+    
+  <label for="">Número 1: </label><br>
+  <input type="number" name="" id="n1" placeholder="Numero 1" required value="0"><br>
+  <label for=""> Numero 2</label><br>
+    <input type="number" name="" id="n2" placeholder="Numero 2" required value="0"><br>
+    <button onclick="suma()">+</button>
+    <button onclick="resta()">-</button>
+    <button onclick="multi()">*</button>
+    <button onclick="divi()">/</button>
+    <div id="res">
+      RESULTADOS 
+      
+    </div>
+    </form>
+    <script src="app.js"></script>
+  </center>
+</body>
+
+</html>

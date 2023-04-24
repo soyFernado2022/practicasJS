@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: skyblue;
+    color: black;
+    font-size: 30px;
+}
